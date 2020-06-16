@@ -42,7 +42,7 @@ public class SessionServiceImpl implements SessionService {
         }
     }
 
-    //TODO Use a no argument constructor for throwing the SessionIdInvalidException
+    //TODO 27/7/2020 Use a no argument constructor for throwing the SessionIdInvalidException
     @Override
     public Sessions endSession(Long sessionId) {
         // TODO Auto-generated method stub
